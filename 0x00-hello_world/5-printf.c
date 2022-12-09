@@ -2,6 +2,8 @@
 /*
  * Main - Entry Point
  *
+ * Description:prints exactl printf
+ *
  * Return : Always 0 (Success)
  *
  */
