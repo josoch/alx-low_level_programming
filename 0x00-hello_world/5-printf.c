@@ -1,11 +1,10 @@
 #include <stdio.h>
-/*
- * Main - Entry Point
+/**
+ * main - Entry point
  *
- * Description:prints exactly printf
+ * Description: 'the program's description'
  *
- * Return : Always 0 (Success)
- *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
