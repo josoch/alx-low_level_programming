@@ -2,7 +2,7 @@
 /*
  * Main - Entry Point
  *
- * Description:prints exactl printf
+ * Description:prints exactly printf
  *
  * Return : Always 0 (Success)
  *
