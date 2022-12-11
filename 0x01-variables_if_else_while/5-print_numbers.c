@@ -1,12 +1,23 @@
-#include <unistd.h>
+/*
+ * File: 5-print_numbers.c
+ * Auth: Ocholi Joseph
+ */
+
+#include <stdio.h>
+
 /**
- * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+ * main - Prints all single digit numbers of base 10 starting from 0.
  *
- *
- * Return: Always 1.
+ * Return: Always 0.
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (1);
+	int num;
+
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
+
+	return (0);
 }
