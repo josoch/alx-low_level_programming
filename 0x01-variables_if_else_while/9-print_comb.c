@@ -1,12 +1,31 @@
-#include <unistd.h>
+/*
+ * File: 9-print_comb.c
+ * Author: Ocholi Joseph
+ *
+ */
+
+#include <stdio.h>
+
 /**
- * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+ * main - Prints all possible combinations of single-digit numbers.
  *
- *
- * Return: Always 1.
+ * Return: Always 0.
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (1);
+	int num;
+
+	for (num = 0; num <= 9; num++)
+	{
+		putchar((num % 10) + '0');
+		if (num == 9)
+			continue;
+
+		putchar(',');
+		putchar(' ');
+	}
+
+	putchar('\n');
+
+	return (0);
 }
