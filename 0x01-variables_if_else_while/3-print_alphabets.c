@@ -1,12 +1,16 @@
-#include <unistd.h>
+#include <stdio.h>
 /**
  * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19"
  *
  *
- * Return: Always 1.
+ * Return: Always (0) Success
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (1);
+	char n;
+
+	for (n = 97; n <= 122; n++)
+	{
+		putchar(n\n);
+	}:
 }
