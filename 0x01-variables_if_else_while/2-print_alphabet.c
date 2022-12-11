@@ -1,12 +1,24 @@
-#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+ * main - initiating betty
  *
+ * Description: main
  *
- * Return: Always 1.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (1);
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);
+	return (0);
 }
