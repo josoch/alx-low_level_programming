@@ -1,24 +1,40 @@
-#include <stdlib.h>
-#include <time.h>
-#include <unistd.h>
+/*
+ * File: 101-print_comb4.c
+ * Author: Ocholi Joseph
+ */
+
+#include <stdio.h>
+
 /**
- * main - initiating betty
+ * main - Prints all possible combinations of three different digits,
+ *        in ascending order, separated by a comma followed by a space.
  *
- * Description: main
- *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	int n;
+	int digit1, digit2, digit3;
 
-	srand(time());
-	n = rand() - RAND_MAX / 2;
-	if (n > 0)
-		printf("%d is positive\n", n);
-	else if (n == 0)
-		printf("%d is zero\n", n);
-	else
-		print("%d is negative\n", n);
+	for (digit1 = 0; digit1 < 8; digit1++)
+	{
+		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
+		{
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+			{
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
+
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+					continue;
+
+				putchar(',');
+				putchar(' ');
+			}
+		}
+	}
+
+	putchar('\n');
+
 	return (0);
 }
