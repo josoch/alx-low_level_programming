@@ -1,12 +1,26 @@
-#include <unistd.h>
+/*
+ * File: 4-print_alphabt.c
+ * Author: Ocholi Joseph
+ */
+
+#include <stdio.h>
+
 /**
- * main - Prints "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+ * main - Prints the alphabet in lowercase, except for q and e.
  *
- *
- * Return: Always 1.
+ * Return: Always 0.
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
-	return (1);
+	char n;
+
+	for (n = 'a'; n <= 'z'; n++)
+	{
+		if (n != 'e' && n != 'q')
+			putchar(n);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
