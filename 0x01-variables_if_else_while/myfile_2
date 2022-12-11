@@ -1,4 +1,3 @@
-#include <ctype.h>
 #include <stdio.h>
 /**
  * main - alphabet in lowercase
@@ -12,10 +11,17 @@ int main(void)
 	int n, l;
 
 	n = 97;
+	l = 65;
 	while (n < 123)
 	{
 		putchar(n);
 		n++;
 	}
+	while (l < 91)
+	{
+		putchar(n);
+		n++;
+	}
+	putchar(10);
 	return (0);
 }
