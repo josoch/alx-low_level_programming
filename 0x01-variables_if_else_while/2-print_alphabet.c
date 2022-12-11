@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int n, l;
+	char n;
 
 	n = 97;
 	while (n < 123)
