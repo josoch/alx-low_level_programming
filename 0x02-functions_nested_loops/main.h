@@ -1,8 +1,8 @@
-#ifndef JOSOCH_H
-#define JOSOCH_H
+#ifndef MAIN_H
+#define MAIN_H
 
 /*
- * File: josoch.h
+ * File: main.h
  * Author:	Ocholi Joseph
  * Desc: Header file containing declarations for all functions
  *       used in the 0x02-functions_nested_loops directory.
