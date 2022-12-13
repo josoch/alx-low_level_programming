@@ -1,6 +1,6 @@
 /*
  * File: 10-add.c
- * Author: Ocholi Joseph
+ * Author: Ocholi Joseph A.
  */
 
 #include "main.h"
