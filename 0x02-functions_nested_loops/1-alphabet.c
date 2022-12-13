@@ -1,6 +1,6 @@
 /*
  * File: 1-alphabet.c
- * Auth: Brennan D Baraban
+ * Author:	Ocholi Joseph
  */
 
 #include "holberton.h"

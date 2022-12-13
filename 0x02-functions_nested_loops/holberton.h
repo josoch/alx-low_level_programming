@@ -3,7 +3,7 @@
 
 /*
  * File: holberton.h
- * Auth: Brennan D Baraban
+ * Author:	Ocholi Joseph
  * Desc: Header file containing declarations for all functions
  *       used in the 0x02-functions_nested_loops directory.
  */

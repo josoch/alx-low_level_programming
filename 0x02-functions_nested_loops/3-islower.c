@@ -1,6 +1,6 @@
 /*
  * File: 3-islower.c
- * Auth: Brennan D Baraban
+ * Author:	Ocholi Joseph
  */
 
 #include "holberton.h"
