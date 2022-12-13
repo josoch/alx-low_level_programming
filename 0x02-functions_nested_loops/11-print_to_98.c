@@ -1,6 +1,6 @@
 /*
  * File: 11-print_to_98.c
- * Author: Ocholi Joseph
+ * Author: Ocholi Joseph A
  */
 
 #include <stdio.h>
