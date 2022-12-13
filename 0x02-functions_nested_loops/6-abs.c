@@ -3,7 +3,7 @@
  * Author: Ocholi Joseph
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _abs - Computes the absolute value of an integer.
