@@ -1,4 +1,4 @@
-#include "../holberton.h"
+#include "../josoch.h"
 
 /**
  * main - check the code for ALX students.
