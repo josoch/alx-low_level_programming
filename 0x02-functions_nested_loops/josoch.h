@@ -1,8 +1,8 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef JOSOCH_H
+#define JOSOCH_H
 
 /*
- * File: holberton.h
+ * File: josoch.h
  * Author:	Ocholi Joseph
  * Desc: Header file containing declarations for all functions
  *       used in the 0x02-functions_nested_loops directory.
