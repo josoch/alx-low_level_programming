@@ -1,6 +1,6 @@
 /*
  * File: 101-natural.c
- * Author: Ocholi Joseph
+ * Author: Ocholi Joseph A
  */
 
 #include <stdio.h>
