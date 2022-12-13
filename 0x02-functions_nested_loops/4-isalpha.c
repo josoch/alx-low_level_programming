@@ -1,7 +1,7 @@
 /*
  * File: 4-isalpha.c
  * Author: Ocholi Joseph
- * 
+ *
  */
 
 #include "holberton.h"
