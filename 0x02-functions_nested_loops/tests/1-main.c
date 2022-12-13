@@ -1,4 +1,4 @@
-#include "../josoch.h"
+#include "../main.h"
 
 /**
  * main - check the code for ALX students.
