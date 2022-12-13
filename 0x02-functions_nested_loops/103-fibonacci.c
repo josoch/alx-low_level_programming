@@ -1,6 +1,6 @@
 /*
  * File: 103-fibonacci.c
- * Author: Ocholi Joseph
+ * Author: Ocholi Joseph A.
  */
 
 #include <stdio.h>
