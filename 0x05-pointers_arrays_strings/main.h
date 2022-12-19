@@ -4,7 +4,7 @@
 /**
  * File: main.h
  * Author: Ocholi Joseph
- * Desc: Header file containing prototypes for all functions
+ * Description: Header file containing prototypes for all functions
  *       used in the 0x04-pointers_arrays_strings directory.
  */
 #include <stdlib.h>
