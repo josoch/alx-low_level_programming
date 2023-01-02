@@ -29,3 +29,4 @@ void print_rev(char *s)
 	_putchar('\n');
 }
 
+sed -i 's/[[:space:]]*$//' NAMEOFFILE
